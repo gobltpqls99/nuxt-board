@@ -2,12 +2,12 @@
 	header.header-wrapper
 		.logo.py-2.px-4
 			nuxt-link(to="/")
-				v-avatar(color="booldook" size="48") BK
+				v-avatar(color="booldook" size="48") SB
 		ul.navi-wrapper
 			.navi
-				a(href="http://127.0.0.1:3000") Node/Express Board
+				a(href=`${process.env.SERVER}`) Node/Express Board
 			.navi
-				a(href="http://127.0.0.1:5000") React/Nuxt Board
+				a(href=`${process.env.REACT}`) React/Next Board
 </template>
 
 <script>
