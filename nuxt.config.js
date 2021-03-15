@@ -10,6 +10,9 @@ export default {
 		port: 5000,
 		host: '127.0.0.1'
 	},
+  env: {
+    baseURL: process.env.BASE_URL
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s - Vue/Nuxt를 활용한 게시판',
